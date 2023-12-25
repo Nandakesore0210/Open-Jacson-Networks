@@ -24,6 +24,7 @@ Visual components and Python
 
 ## Program
 
+```
 Developed by: Nandakesore J
 
 Register Number: 23009689
@@ -101,6 +102,7 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")    
 
 print("----------------------------------------------------------------------")    
+```
 
 ## Output
 
