@@ -28,8 +28,8 @@ Developed by: Nandakesore J
 
 Register Number: 23009689
 
-arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
-ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
+arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))\n
+ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))\n
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
 ser_time3=float(input("Enter the mean  inter service time of Lathe Machine 3 (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
