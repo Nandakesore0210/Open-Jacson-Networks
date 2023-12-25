@@ -28,8 +28,8 @@ Developed by: Nandakesore J
 
 Register Number: 23009689
 
-arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))\n
-ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))\n
+arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
+ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
 ser_time3=float(input("Enter the mean  inter service time of Lathe Machine 3 (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -49,7 +49,7 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
     Lq2=Ls2-lam/mu2
     Lq3=Ls3-lam/mu3
     Wq1=Lq1/lam
-    Wq2=Lq2/lam                                                                                                                                                                                              
+    Wq2=Lq2/lam 
     Wq3=Lq3/lam
     Ws=Ls/(3*lam)
     print("Average number of objects in the system S1 : %0.2f "%Ls1)
@@ -63,8 +63,8 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
     print("Average waiting time of an object in the conveyor S2 : %0.2f secs"%Wq2)
     print("Average waiting time of an object in the conveyor S3 : %0.2f secs"%Wq3)
 else:
-    print("Warning! Objects Over flow will happen in the conveyor")
-print("----------------------------------------------------------------------")
+    print("Warning! Objects Over flow will happen in the conveyor")    
+print("----------------------------------------------------------------------")    
 
 ## Output
 
